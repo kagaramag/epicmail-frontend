@@ -1,0 +1,20 @@
+{
+  "name": "epicmail-app",
+  "scripts": {},
+  "env": {
+    "APP_URL_BACKEND": "https://epicmailbox.herokuapp.com/",
+    "APP_URL_FRONTEND": "https://epicmailbox-frontend.herokuapp.com/"
+  },
+  "formation": {
+    "web": {
+      "quantity": 1
+    }
+  },
+  "addons": [],
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    }
+  ],
+  "stack": "heroku-18"
+}
